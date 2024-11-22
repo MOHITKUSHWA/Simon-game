@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body class style code */
+.body{
+    width: 100%;
+    height: 100dvh;
+    text-transform: capitalize;
+    /* text-align: center; */
+    background-color: rgba(219, 219, 7, 0.776);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* div class style */
+.div{
+    text-align: center;
+}
+/* btn-div class style  */
+.btn-div{
+    height: 320px;
+    width: 320px;
+    border: 5PX solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+    background-color: white;
+}
+/* btn class style */
+.btn{
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 20%;
+    border: 5px solid black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+/* h2 tag style */
+h2{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+/* h1 tag style  */
+h1+h2{
+    padding-bottom: 20px;
+}
+/* button color */
+.one{
+    background-color: rgb(139, 86, 165);
+}
+.two{
+    background-color: rgb(160, 95, 71);
+}
+.three{
+    background-color: rgb(184, 161, 134);
+}
+.four{
+    background-color: rgb(33, 83, 83);
+    /* color: transparent; */
+}
+.newcolor{
+    background-color: white;
+}
+.nvbtn{
+    background-color: green;
+}
