@@ -8,7 +8,7 @@ let btns = ["one", "two", "three", "four"];
 let speed = 1000;
 let clicktimer = 15;
 let clickcounttdown;
-document.addEventListener("keypress", function () {
+document.addEventListener("click", function () {
   if (started == false) {
     // console.log("game is start");
     started = true;
